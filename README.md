@@ -3,6 +3,71 @@
 Gesture Controlled Virtual Mouse makes human computer interaction simple by making use of Hand Gestures and Voice Commands. The computer requires almost no direct contact. All i/o operations can be virtually controlled by using static and dynamic hand gestures along with a voice assistant. This project makes use of the state-of-art Machine Learning and Computer Vision algorithms to recognize hand gestures and voice commands, which works smoothly without any additional hardware requirements. It leverages models such as CNN implemented by [MediaPipe](https://github.com/google/mediapipe) running on top of pybind11. It consists of two modules: One which works direct on hands by making use of MediaPipe Hand detection, and other which makes use of Gloves of any uniform color. Currently it works on Windows platform.
 
 # Features
+
+### Gesture Recognition:
+<details>
+<summary>Neutral Gesture</summary>
+ <figure>
+  <img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/ " alt="Palm" width="711" height="400"><br>
+  <figcaption>Neutral Gesture. Used to halt/stop execution of current gesture.</figcaption>
+</figure>
+</details>
+ 
+
+<details>
+<summary>Move Cursor</summary>
+  <img src="https://github.com/xenon-19/Gesture_Controller/blob/e20edfb1f368ffa600d96bd91031942ec97cb2ab/ .gif" alt="Move Cursor" width="711" height="400"><br>
+  <figcaption>Cursor is assigned to the midpoint of index and middle fingertips. This gesture moves the cursor to the desired location. Speed of the cursor movement is proportional to the speed of hand.</figcaption>
+</details>
+
+<details>
+<summary>Left Click</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83a101/demo .gif" alt="Left Click" width="711" height="400"><br>
+ <figcaption>Gesture for single left click</figcaption>
+</details>
+
+<details>
+<summary>Right Click</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f9d83 20click.gif" alt="Right Click" width="711" height="400"><br>
+ <figcaption>Gesture for single right click</figcaption>
+</details>
+
+<details>
+<summary>Double Click</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4 20click.gif" alt="Double Click" width="711" height="400"><br>
+ <figcaption>Gesture for double click</figcaption>
+</details>
+
+<details>
+<summary>Scrolling</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de853f ling.gif" alt="Scrolling" width="711" height="400"><br>
+ <figcaption>Dynamic Gestures for horizontal and vertical scroll. The speed of scroll is proportional to the distance moved by pinch gesture from start point. Vertical and Horizontal scrolls are controlled by vertical and horizontal pinch movements respectively.</figcaption>
+</details>
+
+<details>
+<summary>Drag and Drop</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c04fff0e12dd4de8 d%20dr f" alt="Drag and Drop" width="711" height="400"><br>
+ <figcaption>Gesture for drag and drop functionality. Can be used to move/tranfer files from one directory to other.</figcaption>
+</details>
+
+<details>
+<summary>Multiple Item Selection</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cfc75aa4c0 em%20selection.gif" alt="Multiple Item Selection" width="711" height="400"><br>
+ <figcaption>Gesture to select multiple items</figcaption>
+</details>
+
+<details>
+<summary>Volume Control</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/ trol.gif" alt="Volume Control" width="711" height="400"><br>
+ <figcaption>Dynamic Gestures for Volume control. The rate of increase/decrease of volume is proportional to the distance moved by pinch gesture from start point. </figcaption>
+</details>
+
+<details>
+<summary>Brightness Control</summary>
+<img src="https://github.com/xenon-19/Gesture_Controller/blob/9be82cf 0Control.gif" alt="Brightness Control" width="711" height="400"><br>
+ <figcaption>Dynamic Gestures for Brightness control. The rate of increase/decrease of brightness is proportional to the distance moved by pinch gesture from start point. </figcaption>
+</details>
+
 ### Voice Assistant ( ***Proton*** ):
 <details>
 <summary>Launch / Stop  Gesture Recognition</summary>
